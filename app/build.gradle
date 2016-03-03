@@ -1,0 +1,101 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+apply plugin: 'com.google.gms.google-services'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+    defaultConfig {
+        applicationId "com.example.android.animationsdemo"
+        minSdkVersion 15
+        targetSdkVersion 22
+        ndk {
+            moduleName "testlibrary"
+        }
+
+    }
+
+    sourceSets.main {
+        jni.srcDirs = [] // This prevents the auto generation of Android.mk
+        //讓AS識別libs下的.so第三方包
+        jniLibs.srcDir 'libs' // This is not necessary unless you have precompiled libraries in your project.
+    }
+
+//    task buildNative(type: Exec, description: 'Compile JNI source via NDK') {
+//        def ndkDir = android.ndkDirectory
+//        commandLine "$ndkDir/ndk-build",
+//                '-C', file('src/main/jni').absolutePath, // Change src/main/jni the relative path to your jni source
+//                '-j', Runtime.runtime.availableProcessors(),
+//                'all',
+//                'NDK_DEBUG=1'
+//    }
+//
+//    task cleanNative(type: Exec, description: 'Clean JNI object files') {
+//        def ndkDir = android.ndkDirectory
+//        commandLine "$ndkDir/ndk-build",
+//                '-C', file('src/main/jni').absolutePath, // Change src/main/jni the relative path to your jni source
+//                'clean'
+//    }
+//
+//    clean.dependsOn 'cleanNative'
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            jniDebuggable true
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+    productFlavors {
+    }
+
+
+}
+
+
+
+dependencies {
+    compile('com.crashlytics.sdk.android:crashlytics:2.5.3@aar') {
+        transitive = true;
+    }
+    compile 'com.android.support:support-v13:22.2.0'
+    compile 'com.google.android.gms:play-services-analytics:7.3.0'
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile files('libs/commons-codec-1.10.jar')
+    compile 'org.jsoup:jsoup:1.8.3'
+    compile 'com.facebook.android:facebook-android-sdk:4.8.1'
+    compile 'com.android.support:support-v4:+'
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.slider:library:1.1.5@aar'
+    //compile files('libs/weiboSDKCore_3.1.2.jar')
+    compile project(':WeiboSdk')
+    compile files('libs/pushservice-4.6.1.68.jar')
+    // paypal
+    compile 'com.paypal.sdk:paypal-android-sdk:2.13.1'
+//    compile 'com.loopj.android:android-async-http:1.4.9'
+//    compile 'com.braintreepayments.api:braintree:2.+'
+//    compile 'com.braintreepayments.api:drop-in:2.+'
+}

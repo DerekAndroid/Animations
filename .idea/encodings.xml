@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/libs/commons-codec-1.10.jar" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/button_search_leftside.xml" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/button_search_rightside.xml" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/library" charset="x-windows-950" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

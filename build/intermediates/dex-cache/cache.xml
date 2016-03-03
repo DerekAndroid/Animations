@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.5.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="52b8cd0d00fe37e94344e1f5de0449475f306a69">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-b931d79490d95f4eb3a6da48f586f088563fab1d.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-33f1f3b7cb6dde2c9dcf6c1904b485bdddac7c4b.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.3.2\d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27\picasso-2.3.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\picasso-2.3.2-ebafaa6c46314a7316d1ef520550984b9481fe3e.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.8\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2fc97f9f17a0a0c5372fbfd2eab091601db69249">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-7e44b5869f3d4b7a665d3eafbf91b2ab691d1941.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\libs\commons-codec-1.10.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\commons-codec-1.10-af01c3eac2f0f95579d0b21a2638538e04abea66.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.1\44780c2cf98f6a3cf4e77f1234d644758b329201\bolts-android-1.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.1-5a4c4750f0485d8fb437d16cf168326f9e31753d.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.1\b34c1f2d993044656e87f88970b6818e99e886ba\okhttp-3.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\okhttp-3.0.1-70a1ac4ea33bb5ff4f1d518a4286c7783a7176fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\Animations\WeiboSdk\unspecified\jars\libs\weibosdkcore.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="49160c101cecafbbe812a275bcad74c66d8b3d8a">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\weibosdkcore-ca41bb43f7b48c5cb0e229cebf25d39da245d8a2.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\library-2.4.0-329f377d155e91e04571bc5313b98b406a269a56.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\okio-1.6.0-a3e7ed19407d9e704a83df957f263cd1fde6c06b.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\libs\pushservice-4.6.1.68.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e6044f43f355d32a5d9abf01904a2338f347ab4b">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\pushservice-4.6.1.68-548a86ef5591c27c55c9b8359cbae940199a432c.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-5cd8b584da8d9310a268ee2e5fa68961ccc0fc51.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-fa0fc05e086bfd514820b44eb910fc09e5a516f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-604e69171ff27c653fac090a34833ccba75648b1.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-c2b5a72a800bd7e206be110b3776e2281764d389.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\io.card\android-sdk\5.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e3fa9adf2238ba0a4160f56d69a3cc5a23f9a98b">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-1162356de3cc050b1cdabbd681d2bcd4bba00610.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9aa93835393824b436f366120c9ba8a0260ce75d">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-17e8316515bc6c094ae8611faaab036f2a31771b.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6f3357b897f59b9d5253e5339fed29031df78f05">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-d1c5b21086f4f06d4d026b562b607dd278002bd4.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-18e48f93f3b2f5746214d51735d5a59a67a29e02.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\Animations\WeiboSdk\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9c78cdbf16a9913f28b53238943015e30d7c732e">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-ba32662699fd2a188bdabcb58bc21daa441ab199.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-13b306a73041540383c4dc60928bb9ef0303b9f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.8.3\65fd012581ded67bc20945d85c32b4598c3a9cf1\jsoup-1.8.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="65fd012581ded67bc20945d85c32b4598c3a9cf1">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\jsoup-1.8.3-0977d958f3ea14abaa1cfb5437497ede14740dc2.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.1.4\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-d977f7e4098c534292f8c286208a08580f7d359e.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.6\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a318b9031a1d83f568495b239504a808d56bdbc1">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-1025ad16ba0bf9df520dcb6c051fd40041887b23.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.4\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a8fad819414b57d881e5748f4157051ba0481a77">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-671599e9be1bdfff0a073aa708fb7549b8fef65c.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.paypal.sdk\paypal-android-sdk\2.13.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="55c5a91bc29333bff61ab76bfe68ee7b3deaa521">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-0104870210fc44c767855bfa1375052f436ec485.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\classes-5c36ddbd61235fbf461234fc28074f29e7ea33fd.jar" />
+    </item>
+    <item
+        jar="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="79a5b6d9fbab3b5fb4c6f86a1ed7a17722fd937b">
+        <dex dex="C:\Users\derekchang\Desktop\Animations\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-a6adcbd9c970cbe6c5fb7d792cbc436581780570.jar" />
+    </item>
+
+</items>

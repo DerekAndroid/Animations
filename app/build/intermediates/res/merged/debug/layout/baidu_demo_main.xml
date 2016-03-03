@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/logtip_fra"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/text_log_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="20dip"
+            android:layout_marginLeft="10dp"
+            android:text="日志："
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_clear_log"
+            android:layout_width="wrap_content"
+            android:layout_height="33dip"
+            android:layout_marginRight="15dip"
+            android:gravity="center"
+            android:paddingBottom="3dip"
+            android:paddingTop="3dip"
+            android:text="清除日志"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/stroll_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_weight="1"
+        android:background="#707070" >
+
+        <TextView
+            android:id="@+id/text_log"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dip"
+            android:textIsSelectable="true" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/firstBtnLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_initAK"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.00"
+                android:text="无账号绑定" />
+
+            <Button
+                android:id="@+id/btn_unbindTags"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:layout_weight="1.00"
+                android:text="解绑" />
+
+        </LinearLayout>
+        
+         <LinearLayout
+            android:id="@+id/fiveBtnLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_ad_switch_on"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="推广接收打开" />
+
+            <Button
+                android:id="@+id/btn_ad_switch_off"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:layout_weight="1.0"
+                android:text="推广接收关闭" />
+                       
+        </LinearLayout>
+        
+
+       
+
+        <LinearLayout
+            android:id="@+id/secendBtnLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_ad_style_1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="推广样式1" />
+
+            <Button
+                android:id="@+id/btn_ad_style_2"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:layout_weight="1.0"
+                android:text="推广样式2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/thirdBtnLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_ad_style_3"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="推广样式3" />
+
+            <Button
+                android:id="@+id/btn_ad_style_4"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:layout_weight="1.0"
+                android:text="推广样式4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fourBtnLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_ad_style_5"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="推广样式5" />
+
+            <Button
+                android:id="@+id/btn_ad_style_all"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:layout_weight="1.0"
+                android:text="一键推送" />
+                       
+        </LinearLayout>
+   
+        
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/derekchang/Desktop/Animations/app/src/main/res/layout/baidu_demo_main.xml -->
